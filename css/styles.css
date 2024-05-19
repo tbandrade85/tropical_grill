@@ -1,0 +1,204 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 96, 59);
+    text-align: center;
+
+}
+
+
+header{
+    padding: 10px ;
+    background-image: url(../img/hdbg.jpg);
+    width: 98%;
+    height: 150px;
+    padding-top: 100px;
+    border-radius: 5px;
+}
+
+footer{
+  width: 98%;
+  background-color: rgb(214, 47, 29);
+  color: #ccc;
+  padding: 4px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10;
+  position: fixed;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+section {
+  text-align: left;
+}
+
+.nav-container {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+
+.menu-principal {
+  color: rgb(190, 141, 136);
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: right;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.menu-principal li a{
+text-decoration: none;
+  color: rgb(214, 47, 29);
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu-principal li a:hover {
+    color: #ccc;
+   }
+.obs {
+  font-size: 10px;
+  
+}
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.facebook-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 150px;
+  right:  40px;
+  background-color: #3b5998;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+ 
+}
+.instagram-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 240px;
+  right:  40px;
+  background-color: #e1306c;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+ 
+}
+.fa-instagram {
+  margin-top: 10px;
+}
+.fa-facebook-f {
+  margin-top: 10px;
+}
+.fa-whatsapp {
+  margin-top: 16px;
+}
+   .table-cardapio {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+  }
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .instagram {
+    background-color: #e1306c;
+  }
+     
+  form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    text-align: center;
+    padding: 1em;
+    
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+  }
+  input,
+textarea {
+  /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+  font: sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Dar um pouco de destaque nos elementos ativos */
+  border-color: #000;
+}
+textarea {
+  /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 100px;
+
+  /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+  resize: vertical;
+}
+.button {
+  /* Para posicionar os botões para a mesma posição dos campos de texto */
+  padding-left: 5px; /* mesmo tamanho que os elementos do tipo label */
+  margin-bottom: 30px;
+}
+
+  #logo {
+    width: 300px;
+    height: 280px;
+    margin-top: -35px;
+  }
+
+  #prato {
+    width: 200px;
+    height: 150px;
+  }
