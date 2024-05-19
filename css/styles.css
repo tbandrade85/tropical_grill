@@ -14,10 +14,11 @@ header{
     height: 80px;
     padding-top: 30px;
     border-radius: 5px;
+    
 }
 
 footer{
-  width: 98%;
+  width: 100%;
   background-color: rgb(214, 47, 29);
   color: #ccc;
   padding: 4px;
@@ -195,7 +196,7 @@ textarea {
   #logo {
     width: 200px;
     height: 180px;
-    margin-top: -75px;
+    margin-top: -70px;
   }
 
   #prato {
