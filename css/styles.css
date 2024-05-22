@@ -1,23 +1,31 @@
 
+/* Estilo global da página. */
 body {
+    /* Definição de fonte. */
     font-family: Arial, Helvetica, sans-serif;
+    /* Cor do texto. */
     color: rgb(189, 96, 59);
+    /* Alinhar texto ao centro da página. */
     text-align: center;
 
 }
 
-
-header{
+/* Estilo da parte superior da página. */
+header {
+    /* Defirnir distância entre as bordas e o conteudo do elemento header. */
     padding: 1px ;
+    /* Definir uma imagem de fundo para o elemento. */
     background-image: url(../img/hdbg.jpg);
+    /* Definir largura para 100% do espaço da página. */
     width: 100%;
+    /* Definindo a altura do header para 80px */
     height: 80px;
     padding-top: 30px;
     border-radius: 5px;
     
 }
 
-footer{
+footer {
   width: 100%;
   background-color: rgb(214, 47, 29);
   color: #ccc;
@@ -30,27 +38,33 @@ footer{
   border-radius: 5px;
 }
 
-h1{
+h1 {
+  /* Definindo alinhamento do texto do cabeçalho h1 ao centro da pagina */
   text-align: center;
 }
 
 section {
+  /* Definindo o alinhamento do texto da string section à esquerda da página */
   text-align: left;
 }
 
+/* Definições globais do container nav */
 .nav-container {
   width: 1000px;
   height: 100px;
   margin: 0 auto;
+  /* Alinhar os itens lado a lado */
   display: flex;
   justify-content: left;
+  /* Centralizar itens */
   align-items: center;
   padding: 10px 0px;
 }
 
-
+/* Estilo da class menu principal */
 .menu-principal {
   color: rgb(190, 141, 136);
+  /* Retirar marcação da lista */
   list-style: none;
   display: flex;
   gap: 50px;
@@ -59,21 +73,30 @@ section {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;
 }
-.menu-principal li a{
+
+/* Estilo dos links do menu */
+.menu-principal li a {
 text-decoration: none;
   color: rgb(214, 47, 29);
   font-weight: bold;
+  /* Tempo de transição para mudançã de cor */
   transition: background-color 0.3s, transform 0.3s;
 }
 
+/* Estilo para quando passamos o mouse sobre o link */
 .menu-principal li a:hover {
     color: #ccc;
    }
-.obs {
+
+/* Estilo para a class obs */ 
+   .obs {
   font-size: 10px;
   
 }
+
+/* Estilo para o botão de whatsapp */
 .whatsapp-link {
+/* Fixar o botão na tela */
   position: fixed;
   width: 60px;
   height: 60px;
@@ -100,9 +123,10 @@ text-decoration: none;
   text-align: center;
   font-size: 40px;
   box-shadow: 1px 1px 2px #888;
+  /* Definindo a sobreposição do botão para o valor 1000 */
   z-index: 1000;
- 
 }
+
 .instagram-link {
   position: fixed;
   width: 60px;
@@ -141,23 +165,26 @@ text-decoration: none;
   }
      
   form {
-    /* Apenas para centralizar o form na página */
+    /* Apenas para centralizar o formulário na página */
     margin: 0 auto;
     width: 400px;
     /* Para ver as bordas do formulário */
     text-align: center;
-    padding: 1em;
+    padding: 1px;
     
   }
+
   form div + div {
-    margin-top: 1em;
+    margin-top: 1px;
   }
+
   label {
     /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
     display: inline-block;
     width: 90px;
     text-align: center;
   }
+
   input,
 textarea {
   /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
@@ -168,15 +195,17 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 
-  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  /* Para harmonizar o look & feel das bordas nos campos de texto */
   border: 1px solid #999;
 }
 
 input:focus,
+
 textarea:focus {
   /* Dar um pouco de destaque nos elementos ativos */
   border-color: #000;
 }
+
 textarea {
   /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
   vertical-align: top;
@@ -187,18 +216,21 @@ textarea {
   /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
   resize: vertical;
 }
+
 .button {
   /* Para posicionar os botões para a mesma posição dos campos de texto */
   padding-left: 5px; /* mesmo tamanho que os elementos do tipo label */
   margin-bottom: 30px;
 }
 
+/* Estilo do imagem id logo */
   #logo {
     width: 200px;
     height: 180px;
     margin-top: -70px;
   }
 
+  /* Estilo da imagem id prato */
   #prato {
     width: 200px;
     height: 150px;
